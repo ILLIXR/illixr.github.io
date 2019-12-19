@@ -33,7 +33,7 @@ There is no centralized setup for ILLIXR. Each component of ILLIXR is packaged a
 
 ILLIXR was developed by several members of the [RSIM research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign, including Sarita V. Adve, Rishi Desai, Muhammad Huzaifa, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
 
-ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard \O ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
+ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard &#216 ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
 
 
 ## Licensing Structure
