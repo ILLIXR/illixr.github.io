@@ -40,7 +40,7 @@ ILLIXR would not have been possible without invaluable help from Steve LaValle, 
 
 ## Licensing Structure
 
-ILLIXR is available as open-source software under the [University of Illinois/NCSA Open Source License](https://github.com/ILLIXR/ILLIXR/blob/master/LICENSE). As mentioned above, ILLIXR largely consists of components developed by domain experts and modified for the purposes of inclusion in ILLIXR (remember, we are computer architects, not algorithm developers!). However, ILLIXR does contain software developed solely by us. **The NCSA license is limited to only this software**. The external libraries and softwares included in ILLIXR each have their own licenses and must be used according to those licenses:
+ILLIXR is available as open-source software under the [University of Illinois/NCSA Open Source License](https://github.com/ILLIXR/illixr.github.io/blob/master/LICENSE). As mentioned above, ILLIXR largely consists of components developed by domain experts and modified for the purposes of inclusion in ILLIXR (remember, we are computer architects, not algorithm developers!). However, ILLIXR does contain software developed solely by us. **The NCSA license is limited to only this software**. The external libraries and softwares included in ILLIXR each have their own licenses and must be used according to those licenses:
 
 - [Open-VINS](https://github.com/rpng/open_vins) - [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 - [ElasticFusion](https://github.com/mp3guy/ElasticFusion) - [ElasticFusion license](https://github.com/mp3guy/ElasticFusion/blob/master/LICENSE.txt)
