@@ -22,7 +22,7 @@ We plan on adding more components to ILLIXR in the future, including graphics.
 
 We ask that you cite our following paper when you use ILLIXR for a publication. We would also really appreciate it if you send us a citation once your work has been published.
 
-- Muhammad Huzaifa, Rishi Desai, Xutao Jiang, Joseph Ravichandran, Finn Sinclair, Sarita V. Adve, [Exploring Extended Reality with XRBench: A New Playground for Architecture Research]().
+- Muhammad Huzaifa, Rishi Desai, Xutao Jiang, Joseph Ravichandran, Finn Sinclair, Sarita V. Adve, [Exploring Extended Reality with XRBench: A New Playground for Architecture Research](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 
 ## Setup
@@ -34,6 +34,8 @@ There is no centralized setup for ILLIXR. Each component of ILLIXR is packaged a
 ILLIXR was developed by several members of the [RSIM research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign, including Sarita V. Adve, Rishi Desai, Muhammad Huzaifa, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
 
 ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard &#216;ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
+
+Wesley Darvin came up with the name for ILLIXR. Abdulrahman Mahmoud helped with the design of this website.
 
 
 ## Licensing Structure
