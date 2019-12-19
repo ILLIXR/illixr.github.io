@@ -1,8 +1,6 @@
 ## About
 
-ILLIXR is an open-source Extended Reality (XR) benchmark suite. _An XR benchmark suite by computer architects for computer architects_.
-
-ILLIXR contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations.
+ILLIXR is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations.
 
 At the moment, ILLIXR contains the following state-of-the-art components.
 
@@ -50,4 +48,4 @@ ILLIXR is available as open-source software under the [University of Illinois/NC
 
 ## Get In Touch
 
-Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. Building ILLIXR was a years long process and took a lot of effort from a lot of people from many organizations. If you are interested in contributing to ILLIXR, please contact Muhammad Huzaifa at huzaifa2 at illinois dot edu.
+Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. We believe ILLIXR really has the opportunity to impact computer architecture and systems research for XR, and can benefit from contributions from other researchers and organizations. If you would like to be a part of this effort, please contact Muhammad Huzaifa at huzaifa2 at illinois dot edu.
