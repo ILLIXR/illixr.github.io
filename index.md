@@ -1,8 +1,8 @@
 ## About
 
-ILLIXR is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations.
+ILLIXR is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. You can think of ILLIXR as an XR benchmark suite by computer architects for computer architects.
 
-At the moment, ILLIXR contains the following state-of-the-art components.
+We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components.
 
 1. [Simultaneous Localization and Mapping](https://github.com/ILLIXR/open_vins)
 2. [Scene reconstruction](https://github.com/ILLIXR/ElasticFusion)
@@ -33,7 +33,7 @@ There is no centralized setup for ILLIXR. Each component of ILLIXR is packaged a
 
 ILLIXR was developed by several members of the [RSIM research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign, including Sarita V. Adve, Rishi Desai, Muhammad Huzaifa, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
 
-ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard &#216 ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
+ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard &#216;ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
 
 
 ## Licensing Structure
@@ -48,4 +48,4 @@ ILLIXR is available as open-source software under the [University of Illinois/NC
 
 ## Get In Touch
 
-Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. We believe ILLIXR really has the opportunity to impact computer architecture and systems research for XR, and can benefit from contributions from other researchers and organizations. If you would like to be a part of this effort, please contact Muhammad Huzaifa at huzaifa2 at illinois dot edu.
+Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. We believe ILLIXR really has the opportunity to drive future computer architecture and systems research for XR, and can benefit from contributions from other researchers and organizations. If you would like to be a part of this effort, please contact us at illixr at illinois dot edu
