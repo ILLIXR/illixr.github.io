@@ -2,7 +2,7 @@
 
 ILLIXR is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. You can think of ILLIXR as an XR benchmark suite by computer architects for computer architects.
 
-We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components. All of these components are available as part of ILLIXR at: https://github.com/ILLIXR
+We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components. All of these components are available as part of ILLIXR at https://github.com/ILLIXR
 
 1. [Simultaneous Localization and Mapping](https://github.com/ILLIXR/open_vins)
 2. [Scene reconstruction](https://github.com/ILLIXR/ElasticFusion)
