@@ -8,9 +8,9 @@ We use the term _components_ and not _kernels_ or _computations_ because each co
 2. [Scene reconstruction](https://github.com/ILLIXR/ElasticFusion)
 3. [Ambisonic encoding](https://github.com/ILLIXR/audio_pipeline)
 4. [Ambisonic manipulation and binauralization](https://github.com/ILLIXR/audio_pipeline)
-5. [Lens distortion correction](https://github.com/ILLIXR)
-6. [Chromatic aberration correction](https://github.com/ILLIXR)
-7. [Time warp](https://github.com/ILLIXR)
+5. [Lens distortion correction](https://github.com/ILLIXR/visual_postprocessing)
+6. [Chromatic aberration correction](https://github.com/ILLIXR/visual_postprocessing)
+7. [Time warp](https://github.com/https://github.com/ILLIXR/visual_postprocessing)
 8. [Computational holography for adaptive multi-focal displays](https://github.com/ILLIXR/HOTlab)
 
 Many of these components were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a fork for proper attribution to its authors. Detailed descriptions of each component can be found in our paper (listed below under `Publications`).
