@@ -1,8 +1,6 @@
 ## About
 
-ILLIXR is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of the generic XR pipeline, components that are required in most, if not all, XR applications. ILLIXR is **not** an XR runtime, nor is it meant to be the world's most optimized piece of XR software. Instead, the goal of ILLIXR is to advance systems and computer architecture research for XR by incorporating key state-of-the-art components of both modern and future XR applications. You can think of ILLIXR as an XR benchmark suite by computer architects for computer architects.
-
-We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many, many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components. All of these components are available as part of ILLIXR at https://github.com/ILLIXR
+ILLIXR (pronounced like elixir) is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of a generic XR pipeline, components that are required in most, if not all, XR applications. We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components. All of these components are available as part of ILLIXR at [https://github.com/ILLIXR/ILLIXR](https://github.com/ILLIXR/ILLIXR)
 
 1. [Simultaneous Localization and Mapping](https://github.com/ILLIXR/open_vins)
 2. [Scene reconstruction](https://github.com/ILLIXR/ElasticFusion)
@@ -13,34 +11,35 @@ We use the term _components_ and not _kernels_ or _computations_ because each co
 7. [Time warp](https://github.com/https://github.com/ILLIXR/visual_postprocessing)
 8. [Computational holography for adaptive multi-focal displays](https://github.com/ILLIXR/HOTlab)
 
-Many of these components were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a fork for proper attribution to its authors. Detailed descriptions of each component can be found in our paper (listed below under `Publications`).
+We plan on adding more components to ILLIXR (e.g., graphics and multiple versions for individual components), including a runtime to integrate all of the components into a full XR system. Our goal is not to create a commercial quality XR product for current hardware. Instead, the goal for ILLIXR is to advance computer architecture, systems, and hardware-software co-design research for XR by making available key state-of-the-art components of both modern and future XR applications. 
 
-We plan on adding more components to ILLIXR in the future, including graphics.
-
+Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors. Detailed descriptions of each component, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 ## Publications
 
-We ask that you cite our following paper when you use ILLIXR for a publication. We would also really appreciate it if you send us a citation once your work has been published.
+We request that you cite our following paper when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
 
 - Muhammad Huzaifa, Rishi Desai, Xutao Jiang, Joseph Ravichandran, Finn Sinclair, Sarita V. Adve, [Exploring Extended Reality with XRBench: A New Playground for Architecture Research](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 
 ## Setup
 
-There is no centralized setup for ILLIXR. Each component of ILLIXR is packaged as its own repository for modularity. Please refer to the setup instructions of each individual component listed on the [ILLIXR github](https://github.com/ILLIXR).
+Each component of ILLIXR is packaged as its own repository for modularity. Please refer to the setup instructions of each individual component listed on the [ILLIXR github](https://github.com/ILLIXR/ILLIXR).
 
 ## Acknowledgements
 
-ILLIXR was developed by several members of the [RSIM research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign, including Sarita V. Adve, Rishi Desai, Muhammad Huzaifa, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
+Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
 
-ILLIXR would not have been possible without invaluable help from Steve LaValle, Matt Horsnell, Liang Gao, Andrew Maimone, Amit Jindal, Aleksandra Faust, Eric Shaffer, Steve Lovegrove, Wei Cu, Archontis Politis, Martin Persson, and Vegard &#216;ye. The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
+ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cu, Vegard &#216;ye, Aleksandra Faust, Amit Jindal, Liang Gao, Matt Horsenell, Steve LaValle, Steve Lovegrove, Andrew Maimone, Martin Persson, Archontis Politis, Eric Shaffer, and Paris Smaragdis.
+
+The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA, and the Center for Future Architectures Research (C-FAR), one of the six centers of STARnet, a Semiconductor Research Corporation program sponsored by MARCO and DARPA. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
 
 Wesley Darvin came up with the name for ILLIXR. Abdulrahman Mahmoud helped with the design of this website.
 
 
 ## Licensing Structure
 
-ILLIXR is available as open-source software under the [University of Illinois/NCSA Open Source License](https://github.com/ILLIXR/illixr.github.io/blob/master/LICENSE). As mentioned above, ILLIXR largely consists of components developed by domain experts and modified for the purposes of inclusion in ILLIXR (remember, we are computer architects, not algorithm developers!). However, ILLIXR does contain software developed solely by us. **The NCSA license is limited to only this software**. The external libraries and softwares included in ILLIXR each have their own licenses and must be used according to those licenses:
+ILLIXR is available as open-source software under the [University of Illinois/NCSA Open Source License](https://github.com/ILLIXR/illixr.github.io/blob/master/LICENSE). As mentioned above, ILLIXR largely consists of components developed by domain experts and modified for the purposes of inclusion in ILLIXR. However, ILLIXR does contain software developed solely by us. **The NCSA license is limited to only this software**. The external libraries and softwares included in ILLIXR each have their own licenses and must be used according to those licenses:
 
 - [Open-VINS](https://github.com/rpng/open_vins) - [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 - [ElasticFusion](https://github.com/mp3guy/ElasticFusion) - [ElasticFusion license](https://github.com/mp3guy/ElasticFusion/blob/master/LICENSE.txt)
@@ -50,4 +49,4 @@ ILLIXR is available as open-source software under the [University of Illinois/NC
 
 ## Get In Touch
 
-Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. We believe ILLIXR really has the opportunity to drive future computer architecture and systems research for XR, and can benefit from contributions from other researchers and organizations. If you would like to be a part of this effort, please contact us at _illixr at illinois dot edu_
+Whether you are a computer architect, a systems person, an XR application developer, or just anyone interested in XR, we would love to hear your feedback on ILLIXR! ILLIXR is a living benchmark suite and we would like to both refine existing components and add new ones. We believe ILLIXR has the opportunity to drive future computer architecture and systems research for XR, and can benefit from contributions from other researchers and organizations. If you would like to be a part of this effort, please contact us at _illixr at illinois dot edu_
