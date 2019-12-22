@@ -19,7 +19,7 @@ Many of the current components of ILLIXR were developed by domain experts and ob
 
 We request that you cite our following paper when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
 
-- Muhammad Huzaifa, Rishi Desai, Xutao Jiang, Joseph Ravichandran, Finn Sinclair, Sarita V. Adve, [Exploring Extended Reality with XRBench: A New Playground for Architecture Research](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
+- Muhammad Huzaifa, Rishi Desai, Xutao Jiang, Joseph Ravichandran, Finn Sinclair, Sarita V. Adve, [Exploring Extended Reality with ILLIXR: A New Playground for Architecture Research](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 
 ## Setup
