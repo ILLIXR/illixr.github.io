@@ -13,7 +13,9 @@ ILLIXR (pronounced like elixir) is an open-source Extended Reality (XR) benchmar
 
 We plan on adding more components to ILLIXR (e.g., graphics and multiple versions for individual components), including a runtime to integrate all of the components into a full XR system. Our goal is not to create a commercial quality XR product for current hardware. Instead, the goal for ILLIXR is to advance computer architecture, systems, and hardware-software co-design research for XR by making available key state-of-the-art components of both modern and future XR applications. 
 
-Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors. Detailed descriptions of each component, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
+Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors.
+
+Detailed descriptions of each component, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 ## Publications
 
