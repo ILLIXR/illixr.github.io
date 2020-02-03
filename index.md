@@ -8,7 +8,7 @@ ILLIXR (pronounced like elixir) is an open-source Extended Reality (XR) benchmar
 4. [Ambisonic manipulation and binauralization](https://github.com/ILLIXR/audio_pipeline)
 5. [Lens distortion correction](https://github.com/ILLIXR/visual_postprocessing)
 6. [Chromatic aberration correction](https://github.com/ILLIXR/visual_postprocessing)
-7. [Time warp](https://github.com/https://github.com/ILLIXR/visual_postprocessing)
+7. [Time warp](https://github.com/ILLIXR/visual_postprocessing)
 8. [Computational holography for adaptive multi-focal displays](https://github.com/ILLIXR/HOTlab)
 
 We plan on adding more components to ILLIXR (e.g., graphics and multiple versions for individual components), including a runtime to integrate all of the components into a full XR system. Our goal is not to create a commercial quality XR product for current hardware. Instead, the goal for ILLIXR is to advance computer architecture, systems, and hardware-software co-design research for XR by making available key state-of-the-art components of both modern and future XR applications. 
