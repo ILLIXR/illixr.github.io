@@ -32,7 +32,7 @@ Each component of ILLIXR is packaged as its own repository for modularity. Pleas
 
 Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Xutao Jiang, Joseph Ravichandran, and Finn Sinclair.
 
-ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cu, Aleksandra Faust, Liang Gao, Matt Horsnell, Amit Jindal, Steve LaValle, Steve Lovegrove, Andrew Maimone, Vegard &#216;ye, Martin Persson, Archontis Politis, Eric Shaffer, and Paris Smaragdis.
+ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cu, Aleksandra Faust, Liang Gao, Matt Horsnell, Amit Jindal, Steve LaValle, Steve Lovegrove, Andrew Maimone, Vegard &#216;ye, Martin Persson, Archontis Politis, Eric Shaffer, Paris Smaragdis, and Chris Widdowson.
 
 The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA, the Center for Future Architectures Research (C-FAR), one of the six centers of STARnet, a Semiconductor Research Corporation program sponsored by MARCO and DARPA, and by a Google Faculty Research Award. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA.
 
