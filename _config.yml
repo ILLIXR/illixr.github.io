@@ -1,3 +1,12 @@
+# Site settings
 title: ILLIXR 1.0
+email:
 description: Illinois Extended Reality Benchmark Suite
-theme: jekyll-theme-cayman
+baseurl: /
+url: https://illixr.github.io/
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown

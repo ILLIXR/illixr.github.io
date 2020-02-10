@@ -1,0 +1,222 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    @include sans-serif-font;
+}
+
+hr {
+    border-color: $theme-primary;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: white;
+}
+
+a {
+    @include transition-all;
+    color: $theme-primary;
+    &:hover,
+    &:focus {
+        color: darken($theme-primary, 10%);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include sans-serif-font;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    background-color: $theme-primary;
+}
+
+.bg-secondary {
+    background-color: #11284B;
+}
+
+.bg-dark {
+    background-color: $theme-dark;
+    color: white;
+}
+
+.text-faded {
+    color: rgba(white, .7);
+}
+
+section {
+    padding: 70px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-image: url("/explodedview.png");
+text-align: center;
+    color: white;
+    
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 100px 15px 100px;
+        width: 100%;
+        
+        .logo-in-header img{
+            margin: 10px;
+            width: 50%;
+        }
+        .header-content-inner {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.678);
+            .sub-header{
+                font-size: 20px;
+                color: #11284B;
+                font-weight: 800;
+                
+            }
+            h1 {
+                font-weight: 400;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            hr {
+                margin: 30px auto;
+            }
+            p {
+                font-weight: 500;
+                color: rgba(rgb(32, 32, 32), 1.0);
+                font-size: 25px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        min-height: 30%;
+        .header-content {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 30px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+        }
+    }
+
+    
+}
+
+.markdown-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.markdown-content {
+    align-self: center;
+    max-width: 800px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+// Bootstrap Overrides
+.text-primary {
+    color: $theme-primary;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+// Button Styles
+.btn-default {
+    @include button-variant($theme-dark, white, white);
+}
+
+.btn-primary {
+    @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn {
+    @include sans-serif-font;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: $theme-dark;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: $theme-dark;
+}
+
+img::selection {
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: white;
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: $theme-dark;
+}
+

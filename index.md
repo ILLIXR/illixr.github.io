@@ -1,3 +1,7 @@
+---
+layout: front
+---
+
 ## About
 
 ILLIXR (pronounced like elixir) is an open-source Extended Reality (XR) benchmark suite. It contains several core state-of-the-art components of a generic XR pipeline, components that are required in most, if not all, XR applications. We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components. All of these components are available as part of ILLIXR at [https://github.com/ILLIXR/ILLIXR](https://github.com/ILLIXR/ILLIXR)
