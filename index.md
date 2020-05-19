@@ -2,9 +2,7 @@
 layout: front
 ---
 
-# ILLIXR
-
-<a href="https://www.youtube.com/watch?v=5GXsUP9_34U"><img alt="ILLIXR Simple Demo" src="https://img.youtube.com/vi/5GXsUP9_34U/0.jpg" style="width: 480px"></a>
+<a href="https://www.youtube.com/watch?v=5GXsUP9_34U"><img alt="ILLIXR Simple Demo" src="https://img.youtube.com/vi/5GXsUP9_34U/0.jpg" style="width: 480px" class="center"></a>
 
 Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is the first open-source full-system Extended Reality (XR) testbed. It contains standalone state-of-the-art components representative of a generic XR workflow, as well as a runtime framework that integrates these components into an XR system. ILLIXR's runtime integration framework is modular, extensible, and [OpenXR](https://www.khronos.org/openxr)-compatible.
 
@@ -28,7 +26,7 @@ Detailed descriptions of each component and our runtime, including performance a
 
 # Publications
 
-We request that you cite our following paper (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
+We request that you cite our following [paper](https://arxiv.org/pdf/2004.04643.pdf) (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
 
 ```
 @misc{HuzaifaDesai2020,
