@@ -44,13 +44,13 @@ For more information, see our [getting started page](https://illixr.github.io/IL
 
 # Acknowledgements
 
-Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Joseph Ravichandran, Finn Sinclair, Henghzhi Yuan, Jeffrey Zhang.
+Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Joseph Ravichandran, Finn Sinclair, Henghzhi Yuan, and Jeffrey Zhang.
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cu, Aleksandra Faust, Liang Gao, Matt Horsnell, Amit Jindal, Steve LaValle, Steve Lovegrove, Andrew Maimone, Vegard &#216;ye, Martin Persson, Archontis Politis, Eric Shaffer, Paris Smaragdis, Sachin Talathi, and Chris Widdowson.
 
 Our OpenXR implementation is derived from [Monado](https://monado.dev). We are particularly thankful to Jakob Bornecrantz and Ryan Pavlik.
 
-The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA, the Center for Future Architectures Research (C-FAR), one of the six centers of STARnet, a Semiconductor Research Corporation program sponsored by MARCO and DARPA, and by a Google Faculty Research Award. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA. Facebook Reality Labs provided the [OpenEDS Semantic Segmentation Dataset](https://research.fb.com/programs/openeds-challenge/).
+The development of ILLIXR was supported by the Applications Driving Architectures (ADA) Research Center, a JUMP Center co-sponsored by SRC and DARPA, the Center for Future Architectures Research (C-FAR), one of the six centers of STARnet, a Semiconductor Research Corporation program sponsored by MARCO and DARPA, the National Science Foundation under grant CCF 16-19245, and by a Google Faculty Research Award. The development of ILLIXR was also aided by generous hardware and software donations from ARM and NVIDIA. Facebook Reality Labs provided the [OpenEDS Semantic Segmentation Dataset](https://research.fb.com/programs/openeds-challenge/).
 
 Wesley Darvin came up with the name for ILLIXR. Abdulrahman Mahmoud helped with the design of this website.
 
