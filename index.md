@@ -22,11 +22,11 @@ We plan on adding more components (e.g., graphics and multiple versions for indi
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors.
 
-Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](https://arxiv.org/pdf/2004.04643.pdf).
+Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf).
 
 # Publications
 
-We request that you cite our following [paper](https://arxiv.org/pdf/2004.04643.pdf) (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
+We request that you cite our following [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf) (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
 
 ```
 @misc{HuzaifaDesai2020,
