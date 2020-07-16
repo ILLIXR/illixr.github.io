@@ -1,7 +1,7 @@
 # Site settings
-title: ILLIXR 1.0
+title: ILLIXR
 email:
-description: Illinois Extended Reality Benchmark Suite
+description: Illinois Extended Reality Testbed
 baseurl: /
 url: https://illixr.github.io/
 
