@@ -40,7 +40,7 @@ We request that you cite our following [paper](http://rsim.cs.illinois.edu/Pubs/
 
 # Getting Started and Documentation
 
-For more information, see our [getting started page](https://illixr.github.io/ILLIXR/docs/getting_started/).
+For more information, see our [getting started page](https://illixr.github.io/ILLIXR/getting_started/).
 
 # Acknowledgements
 
