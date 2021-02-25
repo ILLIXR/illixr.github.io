@@ -22,7 +22,7 @@ We plan on adding more components (e.g., graphics and multiple versions for indi
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors.
 
-Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf). Also see our [talk](http://rsim.cs.illinois.edu/Pubs/illixr-deep-dive-website.pptx) on the v2.0 release of ILLIXR and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
+Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf). Also see our [talk](https://www.youtube.com/watch?v=a5feoTQzTo8) on ILLIXR and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
 
 # Publications
 
@@ -44,7 +44,7 @@ For more information, see our [getting started page](https://illixr.github.io/IL
 
 # Acknowledgements
 
-Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Joseph Ravichandran, Finn Sinclair, Henghzhi Yuan, and Jeffrey Zhang.
+Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Yihan Pang, Joseph Ravichandran, Giordano Salvador, Finn Sinclair, Boyuan Tian, Henghzhi Yuan, and Jeffrey Zhang.
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cui, Aleksandra Faust, Liang Gao, Matt Horsnell, Amit Jindal, Steve LaValle, Steve Lovegrove, Andrew Maimone, Vegard &#216;ye, Martin Persson, Archontis Politis, Eric Shaffer, Paris Smaragdis, Sachin Talathi, and Chris Widdowson.
 
