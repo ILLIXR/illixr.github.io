@@ -31,8 +31,8 @@ We request that you cite our following [paper](http://rsim.cs.illinois.edu/Pubs/
 ```
 @misc{HuzaifaDesai2020,
     title={Exploring Extended Reality with ILLIXR: A new Playground for Architecture Research},
-    author={Muhammad Huzaifa and Rishi Desai and Xutao Jiang and Joseph Ravichandran and Finn Sinclair and Sarita V. Adve},
-    year={2020},
+    author={Muhammad Huzaifa and Rishi Desai and Samuel Grayson and Xutao Jiang and Ying Jing and Jae Lee and Fang Lu and Yihan Pang and Joseph Ravichandran and Finn Sinclair and Boyuan Tian and Hengzhi Yuan and Jeffrey Zhang and Sarita V. Adve},
+    year={2021},
     eprint={2004.04643},
     primaryClass={cs.DC}
 }
