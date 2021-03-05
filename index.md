@@ -4,7 +4,7 @@ layout: front
 
 <a href="https://youtu.be/GVcCW8WgEDY"><img alt="ILLIXR Simple Demo" src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg" style="width: 320px" class="center"></a>
 
-Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is the first open-source full-system Extended Reality (XR) testbed. It contains standalone state-of-the-art components representative of a generic XR workflow, as well as a runtime framework that integrates these components into an XR system. ILLIXR's runtime integration framework is modular, extensible, and [OpenXR](https://www.khronos.org/openxr)-compatible. You can find ILLIXR v2.x [here](https://github.com/ILLIXR/ILLIXR/releases/tag/v2-latest).
+Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is the first open-source full-system Extended Reality (XR) testbed. It contains standalone state-of-the-art components representative of a generic XR workflow, as well as a runtime framework that integrates these components into an XR system. ILLIXR's runtime integration framework is modular, extensible, and [OpenXR](https://www.khronos.org/openxr)-compatible. You can find ILLIXR [here](https://github.com/ILLIXR/ILLIXR).
 
 We use the term _components_ and not _kernels_ or _computations_ because each component of ILLIXR is an entire application in itself, and consists of many kernels and computations. At the moment, ILLIXR contains the following state-of-the-art components, all of which can be found packaged together in the [v1-latest release](https://github.com/ILLIXR/ILLIXR/releases/tag/v1-latest) of ILLIXR.
 
@@ -22,11 +22,11 @@ We plan on adding more components (e.g., graphics and multiple versions for indi
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors.
 
-Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf). Also see our [talk](https://www.youtube.com/watch?v=a5feoTQzTo8) on ILLIXR and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
+Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](https://arxiv.org/abs/2004.04643). Also see our [talk](https://www.youtube.com/watch?v=a5feoTQzTo8) on ILLIXR and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
 
 # Publications
 
-We request that you cite our following [paper](http://rsim.cs.illinois.edu/Pubs/illixr.pdf) (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
+We request that you cite our following [paper](https://arxiv.org/abs/2004.04643) (new version coming soon) when you use ILLIXR for a publication. We would also appreciate it if you send us a citation once your work has been published.
 
 ```
 @misc{HuzaifaDesai2020,
