@@ -22,7 +22,7 @@ We plan on adding more components (e.g., graphics and multiple versions for indi
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from publicly available repositories. They were modified for one or more of the following reasons: fixing compilation, adding features, or removing extraneous code or dependencies. Each component not developed by us is available as a forked github repository for proper attribution to its authors.
 
-Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](https://arxiv.org/abs/2004.04643). Also see our [talk](https://www.youtube.com/watch?v=dbvsRwKAlJA) on ILLIXR and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
+Detailed descriptions of each component and our runtime, including performance and energy profiles, can be found in our [paper](https://arxiv.org/abs/2004.04643). Also see our [talk](https://www.youtube.com/watch?v=dbvsRwKAlJA) on ILLIXR ([slides](http://rsim.cs.illinois.edu/Pubs/illixr_uw_talk.pdf)) and a [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
 
 # Publications
 
