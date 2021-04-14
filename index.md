@@ -56,7 +56,7 @@ For more information, see our [getting started page](https://illixr.github.io/IL
 
 # Acknowledgements
 
-Muhammad Huzaifa led the development of ILLIXR in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/) at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Yihan Pang, Joseph Ravichandran, Giordano Salvador, Finn Sinclair, Boyuan Tian, Henghzhi Yuan, and Jeffrey Zhang.
+The ILLIXR project started in [Sarita Adve’s research group](http://rsim.cs.illinois.edu/), co-led by PhD candidate Muhammad Huzaifa, at the University of Illinois at Urbana-Champaign. Other major contributors include Rishi Desai, Samuel Grayson, Xutao Jiang, Ying Jing, Jae Lee, Fang Lu, Yihan Pang, Joseph Ravichandran, Giordano Salvador, Finn Sinclair, Boyuan Tian, Henghzhi Yuan, and Jeffrey Zhang.
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains: audio, graphics, optics, robotics, signal processing, and extended reality systems. We are deeply grateful for all of these discussions and specifically to the following: Wei Cui, Aleksandra Faust, Liang Gao, Matt Horsnell, Amit Jindal, Steve LaValle, Steve Lovegrove, Andrew Maimone, Vegard &#216;ye, Martin Persson, Archontis Politis, Eric Shaffer, Paris Smaragdis, Sachin Talathi, and Chris Widdowson.
 
