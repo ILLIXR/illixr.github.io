@@ -71,6 +71,7 @@ Wesley Darvin came up with the name for ILLIXR. Abdulrahman Mahmoud helped with 
 ILLIXR is available as open-source software under the [University of Illinois/NCSA Open Source License](https://github.com/ILLIXR/illixr.github.io/blob/master/LICENSE). As mentioned above, ILLIXR largely consists of components developed by domain experts and modified for the purposes of inclusion in ILLIXR. However, ILLIXR does contain software developed solely by us. **The NCSA license is limited to only this software**. The external libraries and softwares included in ILLIXR each have their own licenses and must be used according to those licenses:
 
 - [ElasticFusion](https://github.com/mp3guy/ElasticFusion) \ [ElasticFusion license](https://github.com/mp3guy/ElasticFusion/blob/master/LICENSE.txt)
+- [KinectFusion](https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration) \ [MIT License](https://github.com/chrdiller/KinectFusionApp/blob/master/LICENSE.txt)
 - [GTSAM](https://github.com/ILLIXR/gtsam) \ [Simplified BSD License](https://github.com/borglab/gtsam/blob/develop/LICENSE.BSD)
 - [HOTlab](https://github.com/MartinPersson/HOTlab) \ [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.html)
 - [Kimera-VIO](https://github.com/ILLIXR/Kimera-VIO) \ [Simplified BSD License](https://github.com/MIT-SPARK/Kimera-VIO/blob/master/LICENSE.BSD)
