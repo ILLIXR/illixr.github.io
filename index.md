@@ -12,15 +12,16 @@ ILLIXR also provides its components in standalone configurations to enable archi
 
 ILLIXR's modular and extensible runtime allows adding new components and swapping different implementations of a given component. ILLIXR currently contains the following components: 
 
-1. Visual Inertial Odometry: [OpenVINS](https://github.com/ILLIXR/open_vins), [Kimera-VIO](https://github.com/ILLIXR/Kimera-VIO)
-2. Scene reconstruction: [ElasticFusion](https://github.com/ILLIXR/ElasticFusion), [KinectFusion](https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration)
-3. [Eye tracking](https://github.com/ILLIXR/RITnet)
-4. [Ambisonic encoding](https://github.com/ILLIXR/audio_pipeline)
-5. [Ambisonic manipulation and binauralization](https://github.com/ILLIXR/audio_pipeline)
-6. [Lens distortion correction](https://github.com/ILLIXR/visual_postprocessing)
-7. [Chromatic aberration correction](https://github.com/ILLIXR/visual_postprocessing)
-8. [Asynchronous reprojection (Time warp)](https://github.com/ILLIXR/visual_postprocessing)
-9. [Computational holography for adaptive multi-focal displays](https://github.com/ILLIXR/HOTlab)
+1. Cameras and IMUs: [ZED Mini](https://github.com/ILLIXR/ILLIXR/tree/master/zed), [Intel RealSense](https://github.com/ILLIXR/ILLIXR/tree/master/realsense)
+2. Visual Inertial Odometry: [OpenVINS](https://github.com/ILLIXR/open_vins), [Kimera-VIO](https://github.com/ILLIXR/Kimera-VIO)
+3. Scene reconstruction: [ElasticFusion](https://github.com/ILLIXR/ElasticFusion), [KinectFusion](https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration)
+4. [Eye tracking](https://github.com/ILLIXR/RITnet)
+5. [Ambisonic encoding](https://github.com/ILLIXR/audio_pipeline)
+6. [Ambisonic manipulation and binauralization](https://github.com/ILLIXR/audio_pipeline)
+7. [Lens distortion correction](https://github.com/ILLIXR/visual_postprocessing)
+8. [Chromatic aberration correction](https://github.com/ILLIXR/visual_postprocessing)
+9. [Asynchronous reprojection (Time warp)](https://github.com/ILLIXR/visual_postprocessing)
+10. [Computational holography for adaptive multi-focal displays](https://github.com/ILLIXR/HOTlab)
 
 We continue to add more components (new components and new implementations). 
 
