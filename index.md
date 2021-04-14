@@ -84,4 +84,4 @@ ILLIXR is available as open-source software under the [University of Illinois/NC
 
 # Get In Touch
 
-Whether you are a computer architect, a compiler writer, a systems person, work on XR related algorithms or applications, or just anyone interested in XR research, development, or products, we would love to hear from you and hope you will contribute! You can join the [ILLIXR consortium](http://illixr.org), [discord](https://discord.gg/upkvy7x3W4), mailing list, send us an [email](mailto:illixr@cs.illinois.edu), or just send us a pull request!
+Whether you are a computer architect, a compiler writer, a systems person, work on XR related algorithms or applications, or just anyone interested in XR research, development, or products, we would love to hear from you and hope you will contribute! You can join the [ILLIXR consortium](http://illixr.org), [discord](https://discord.gg/upkvy7x3W4), or [mailing list](mailto:lists@lists.cs.illinois.edu?subject=sub%20illixr-community), or send us an [email](mailto:illixr@cs.illinois.edu), or just send us a pull request!
