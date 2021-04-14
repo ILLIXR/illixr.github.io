@@ -4,7 +4,7 @@ layout: front
 
 <a href="https://youtu.be/GVcCW8WgEDY"><img alt="ILLIXR Simple Demo" src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg" style="width: 320px" class="center"></a>
 
-Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is the first fully open-source Extended Reality (XR) system and testbed. The modular, extensible, and [OpenXR](https://www.khronos.org/openxr)-compatible ILLIXR runtime integrates state-of-the-art XR components into a complete XR system. The testbed is part of the broader [ILLIXR consortium](illixr.org), an industry-supported community effort to democratize XR systems research, development, and benchmarking.
+Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is the first fully open-source Extended Reality (XR) system and testbed. The modular, extensible, and [OpenXR](https://www.khronos.org/openxr)-compatible ILLIXR runtime integrates state-of-the-art XR components into a complete XR system. The testbed is part of the broader [ILLIXR consortium](http://illixr.org), an industry-supported community effort to democratize XR systems research, development, and benchmarking.
 
 You can find the complete ILLIXR system [here](https://github.com/ILLIXR/ILLIXR).
 
@@ -34,7 +34,7 @@ A [talk presented at NVIDIA GTC'21](https://www.nvidia.com/en-us/gtc/catalog/?se
 
 A [demo](https://youtu.be/GVcCW8WgEDY) of an OpenXR application running with ILLIXR.
 
-The [ILLIXR consortium](illixr.org) is an industry-supported community effort to democratize XR systems research, development, and benchmarking. Visit our [web site](illixr.org) for more information.
+The [ILLIXR consortium](http://illixr.org) is an industry-supported community effort to democratize XR systems research, development, and benchmarking. Visit our [web site](http://illixr.org) for more information.
 
 # Citation
 
@@ -79,4 +79,4 @@ ILLIXR is available as open-source software under the [University of Illinois/NC
 
 # Get In Touch
 
-Whether you are a computer architect, a compiler writer, a systems person, work on XR related algorithms or applications, or just anyone interested in XR research, development, or products, we would love to hear from you and hope you will contribute! You can join the [ILLIXR consortium](illixr.org), [discord](https://discord.gg/upkvy7x3W4), mailing list, send us an [email](mailto:illixr@cs.illinois.edu), or just send us a pull request!
+Whether you are a computer architect, a compiler writer, a systems person, work on XR related algorithms or applications, or just anyone interested in XR research, development, or products, we would love to hear from you and hope you will contribute! You can join the [ILLIXR consortium](http://illixr.org), [discord](https://discord.gg/upkvy7x3W4), mailing list, send us an [email](mailto:illixr@cs.illinois.edu), or just send us a pull request!
