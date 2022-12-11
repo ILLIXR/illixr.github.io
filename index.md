@@ -2,7 +2,7 @@
 layout: front
 ---
 
-<a href="https://youtu.be/GVcCW8WgEDY">
+<a href="https://www.youtube.com/watch?v=zOqQkCnbQkk">
     <img
         alt="ILLIXR Simple Demo"
         src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg"
@@ -20,6 +20,8 @@ The testbed is part of the broader [ILLIXR consortium][37],
     research, development, and benchmarking.
 
 You can find the complete ILLIXR system [here][38].
+
+To start working with ILLIXR, see our [Getting Started page] [33].
 
 ILLIXR also provides its components in standalone configurations to enable architects and
     system designers to research each component in isolation.
@@ -54,6 +56,8 @@ ILLIXR currently contains the following components:
 
 (** Source is hosted in an external repository under the [ILLIXR project][7].)
 
+ILLIXR supports offloading VIO to another machine. For more details, please read the doc [here][50].
+
 We continue to add more components (new components and new implementations). 
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from
@@ -63,7 +67,7 @@ They were modified for one or more of the following reasons: fixing compilation,
 Each component not developed by us is available as a forked github repository for
     proper attribution to its authors.
 
-# Papers, talks, demos, consortium
+## Papers, talks, demos, consortium
 
 A [paper][8] with details on ILLIXR, including its components, runtime, telemetry support,
     and a comprehensive analysis of performance, power, and quality on desktop and embedded systems.
@@ -78,34 +82,35 @@ The [ILLIXR consortium][37] is an industry-supported community effort to democra
     XR systems research, development, and benchmarking.
 Visit our [web site][37] for more information.
 
-# Citation
+## Citation
 
-We request that you cite our following [paper][8] (new version coming soon)
-    when you use ILLIXR for a publication.
+We request that you cite our following [paper][8] when you use ILLIXR for a publication.
 We would also appreciate it if you send us a citation once your work has been published.
 
 ```
-@misc{HuzaifaDesai2020,
-    title={Exploring Extended Reality with ILLIXR: A new Playground for Architecture Research},
-    author={Muhammad Huzaifa and Rishi Desai and Samuel Grayson and Xutao Jiang and Ying Jing and Jae Lee and Fang Lu and Yihan Pang and Joseph Ravichandran and Finn Sinclair and Boyuan Tian and Hengzhi Yuan and Jeffrey Zhang and Sarita V. Adve},
-    year={2021},
-    eprint={2004.04643},
-    primaryClass={cs.DC}
+@ARTICLE{HuzaifaDesai2022,
+  author={Huzaifa, Muhammad and Desai, Rishi and Grayson, Samuel and Jiang, Xutao and Jing, Ying and Lee, Jae and Lu, Fang and Pang, Yihan and Ravichandran, Joseph and Sinclair, Finn and Tian, Boyuan and Yuan, Hengzhi and Zhang, Jeffrey and Adve, Sarita V.},
+  journal={IEEE Micro}, 
+  title={ILLIXR: An Open Testbed to Enable Extended Reality Systems Research}, 
+  year={2022},
+  volume={42},
+  number={4},
+  pages={97-106},
+  doi={10.1109/MM.2022.3161018}
 }
 ```
-
-## Getting Started and Documentation
-
-For more information, see our [Getting Started page][33].
-
 
 ## Acknowledgements
 
 The ILLIXR project started in [Sarita Adve’s research group][9],
     co-led by PhD candidate Muhammad Huzaifa, at the University of Illinois at Urbana-Champaign.
 Other major contributors include
+    Dhairya Bahl,
+    Charles Block,
+    Henry Che,
     Rishi Desai,
     Samuel Grayson,
+    Qinjun Jiang,
     Xutao Jiang,
     Ying Jing,
     Jae Lee,
@@ -114,10 +119,11 @@ Other major contributors include
     Joseph Ravichandran,
     Giordano Salvador,
     Finn Sinclair,
+    Lincoln Stein,
     Boyuan Tian,
-    Henghzhi Yuan,
-    and
-    Jeffrey Zhang.
+    Kun Wu,
+    Hengzhi Yuan,
+    Jeffrey Zhang
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains:
     audio,
@@ -160,7 +166,6 @@ The development of ILLIXR was also aided by generous hardware and software donat
 Facebook Reality Labs provided the [OpenEDS Semantic Segmentation Dataset][11].
 
 Wesley Darvin came up with the name for ILLIXR.
-Abdulrahman Mahmoud helped with the design of this website.
 
 ## Licensing Structure
 
@@ -219,7 +224,7 @@ You can join
 [5]:    https://github.com/ILLIXR/visual_postprocessing
 [6]:    https://github.com/ILLIXR/HOTlab
 [7]:    https://github.com/ILLIXR
-[8]:    https://arxiv.org/pdf/2004.04643.pdf
+[8]:    https://ieeexplore.ieee.org/document/9741292
 [9]:    http://rsim.cs.illinois.edu
 [10]:   https://monado.dev
 [11]:   https://research.fb.com/programs/openeds-challenge
@@ -235,8 +240,6 @@ You can join
 [21]:   https://www.gnu.org/licenses/lgpl-3.0.html
 [22]:   https://gitlab.freedesktop.org/monado/monado
 [23]:   https://choosealicense.com/licenses/bsl-1.0
-[24]:   https://gitter.im/ILLIXR/community
-[25]:   https://github.com/ILLIXR/ILLIXR/releases
 [26]:   https://www.khronos.org/openxr
 [27]:   https://github.com/ILLIXR/gtsam
 [28]:   https://github.com/borglab/gtsam/blob/develop/LICENSE.BSD
@@ -246,8 +249,6 @@ You can join
 [32]:   https://github.com/cameron314/concurrentqueue/blob/master/LICENSE.md
 [33]:   https://illixr.github.io/ILLIXR/getting_started/
 [34]:   https://illixr.github.io/ILLIXR/LICENSE/
-[35]:   https://illixr.github.io/ILLIXR/illixr_plugins/
-[36]:   https://illixr.github.io/ILLIXR/writing_your_plugin/
 [37]:   http://illixr.org
 [38]:   https://github.com/ILLIXR/ILLIXR
 [39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v1-latest
@@ -261,3 +262,4 @@ You can join
 [47]:   https://discord.gg/upkvy7x3W4
 [48]:   mailto:lists@lists.cs.illinois.edu?subject=sub%20illixr-community
 [49]:   mailto:illixr@cs.illinois.edu
+[50]:   https://github.com/ILLIXR/ILLIXR/blob/master/docs/offload_vio.md
