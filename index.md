@@ -2,23 +2,17 @@
 layout: front
 ---
 
-<a href="https://www.youtube.com/watch?v=zOqQkCnbQkk">
-    <img
-        alt="ILLIXR Simple Demo"
-        src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg"
-        style="width: 320px"
-        class="center"
-    >
-</a>
-
 Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is
     the first fully open-source Extended Reality (XR) system and testbed.
 The modular, extensible, and [OpenXR][26]-compatible ILLIXR runtime
     integrates state-of-the-art XR components into a complete XR system.
 The testbed is part of the broader [ILLIXR consortium][37],
     an industry-supported community effort to democratize XR systems
-    research, development, and benchmarking.
+    research, development, and benchmarking. Please visit the consortium web site
+    for more information about ILLIXR while this page is focused on the codebase.
 
+Enabled by [Monado][10], the open-source OpenXR runtime for Linux,
+    ILLIXR supports XR applications conforming to the OpenXR interface.
 You can find the complete ILLIXR system [here][38].
 
 To start working with ILLIXR, see our [Getting Started page][33].
@@ -58,9 +52,6 @@ ILLIXR currently contains the following components:
 
 ILLIXR supports offloading VIO to another machine. For more details, please read the doc [here][50].
 
-Enabled by [Monado][10], the open-source OpenXR runtime for Linux,
-    ILLIXR supports XR applications conforming to the OpenXR interface.
-
 We continue to add more components (new components and new implementations). 
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from
@@ -70,16 +61,7 @@ They were modified for one or more of the following reasons: fixing compilation,
 Each component not developed by us is available as a forked github repository for
     proper attribution to its authors.
 
-## Papers, talks, demos, consortium
-
-A [paper][8] with details on ILLIXR, including its components, runtime, telemetry support,
-    and a comprehensive analysis of performance, power, and quality on desktop and embedded systems.
-
-A talk presented at [Sandia National Labs 4th Annual XR Conference][42] describing ILLIXR:
-    [Video][43].
-    [Slides][44]. 
-
-A [demo][45] of an OpenXR application running with ILLIXR.
+## Papers, talks, demos, and consortium
 
 The [ILLIXR consortium][37] is an industry-supported community effort to democratize
     XR systems research, development, and benchmarking.
