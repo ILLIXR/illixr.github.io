@@ -21,7 +21,7 @@ The testbed is part of the broader [ILLIXR consortium][37],
 
 You can find the complete ILLIXR system [here][38].
 
-To start working with ILLIXR, see our [Getting Started page] [33].
+To start working with ILLIXR, see our [Getting Started page][33].
 
 ILLIXR also provides its components in standalone configurations to enable architects and
     system designers to research each component in isolation.
@@ -41,7 +41,7 @@ ILLIXR currently contains the following components:
         1.  [OpenVINS][1] **
         1.  [Kimera-VIO][29] **
     -   Cameras and IMUs
-        1.  [ZED Mini][42]
+        1.  [ZED Mini][51]
         1.  [Intel RealSense][41]
 
 -   *Visual*
@@ -58,6 +58,9 @@ ILLIXR currently contains the following components:
 
 ILLIXR supports offloading VIO to another machine. For more details, please read the doc [here][50].
 
+Enabled by [Monado][10], the open-source OpenXR runtime for Linux,
+    ILLIXR supports XR applications conforming to the OpenXR interface.
+
 We continue to add more components (new components and new implementations). 
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from
@@ -72,7 +75,7 @@ Each component not developed by us is available as a forked github repository fo
 A [paper][8] with details on ILLIXR, including its components, runtime, telemetry support,
     and a comprehensive analysis of performance, power, and quality on desktop and embedded systems.
 
-A [talk presented at NVIDIA GTC'21][42] describing ILLIXR and announcing the ILLIXR consortium:
+A talk presented at [Sandia National Labs 4th Annual XR Conference][42] describing ILLIXR:
     [Video][43].
     [Slides][44]. 
 
@@ -80,7 +83,8 @@ A [demo][45] of an OpenXR application running with ILLIXR.
 
 The [ILLIXR consortium][37] is an industry-supported community effort to democratize
     XR systems research, development, and benchmarking.
-Visit our [web site][37] for more information.
+Visit the [consortium web site][37] for more information,
+    including papers, talks, demos, and news about ILLIXR.
 
 ## Citation
 
@@ -123,7 +127,7 @@ Other major contributors include
     Boyuan Tian,
     Kun Wu,
     Hengzhi Yuan,
-    Jeffrey Zhang
+    Jeffrey Zhang.
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains:
     audio,
@@ -166,6 +170,7 @@ The development of ILLIXR was also aided by generous hardware and software donat
 Facebook Reality Labs provided the [OpenEDS Semantic Segmentation Dataset][11].
 
 Wesley Darvin came up with the name for ILLIXR.
+Abdulrahman Mahmoud helped with the design of this website.
 
 ## Licensing Structure
 
@@ -254,8 +259,8 @@ You can join
 [39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v1-latest
 [40]:   https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration
 [41]:   https://github.com/ILLIXR/ILLIXR/tree/master/realsense
-[42]:   https://www.nvidia.com/en-us/gtc/catalog/?search.primarytopic=option_1564595704881&search.sessiontype=option_1614028602338&search.primaryindustrysegment=option_1563402697134&search=An%20Open-Source%20Testbed#/
-[43]:   https://youtu.be/ZY98lWksnpM
+[42]:   https://www.sandia.gov/xr/events/
+[43]:   https://www.youtube.com/watch?v=gezUctqrCFA&ab_channel=SaritaAdve%27sResearchGroup
 [44]:   https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=2971
 [45]:   https://youtu.be/GVcCW8WgEDY
 [46]:   https://github.com/chrdiller/KinectFusionApp/blob/master/LICENSE.txt
@@ -263,3 +268,4 @@ You can join
 [48]:   mailto:lists@lists.cs.illinois.edu?subject=sub%20illixr-community
 [49]:   mailto:illixr@cs.illinois.edu
 [50]:   https://github.com/ILLIXR/ILLIXR/blob/master/docs/offload_vio.md
+[51]:   https://github.com/ILLIXR/ILLIXR/tree/master/zed
