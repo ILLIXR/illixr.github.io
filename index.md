@@ -1,8 +1,7 @@
 ---
 layout: front
 ---
-
-<a href="https://youtu.be/GVcCW8WgEDY">
+<a href="https://www.youtube.com/watch?v=nPw4RGPwygI">
     <img
         alt="ILLIXR Simple Demo"
         src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg"
@@ -17,13 +16,18 @@ The modular, extensible, and [OpenXR][26]-compatible ILLIXR runtime
     integrates state-of-the-art XR components into a complete XR system.
 The testbed is part of the broader [ILLIXR consortium][37],
     an industry-supported community effort to democratize XR systems
-    research, development, and benchmarking.
+    research, development, and benchmarking. Please visit the consortium web site
+    for more information about ILLIXR while this page is focused on the codebase.
 
+Enabled by [Monado][10], the open-source OpenXR runtime for Linux,
+    ILLIXR supports XR applications conforming to the OpenXR interface.
 You can find the complete ILLIXR system [here][38].
+
+To start working with ILLIXR, see our [Getting Started page][33].
 
 ILLIXR also provides its components in standalone configurations to enable architects and
     system designers to research each component in isolation.
-The standalone components are packaged together in the [v1-latest release][39] of ILLIXR. 
+The standalone components are packaged together in the [v3.1.0 release][39] of ILLIXR. 
 
 ILLIXR's modular and extensible runtime allows adding new components and swapping different
     implementations of a given component.
@@ -39,7 +43,7 @@ ILLIXR currently contains the following components:
         1.  [OpenVINS][1] **
         1.  [Kimera-VIO][29] **
     -   Cameras and IMUs
-        1.  [ZED Mini][42]
+        1.  [ZED Mini][51]
         1.  [Intel RealSense][41]
 
 -   *Visual*
@@ -54,6 +58,8 @@ ILLIXR currently contains the following components:
 
 (** Source is hosted in an external repository under the [ILLIXR project][7].)
 
+ILLIXR supports offloading VIO to another machine. For more details, please read the doc [here][50].
+
 We continue to add more components (new components and new implementations). 
 
 Many of the current components of ILLIXR were developed by domain experts and obtained from
@@ -63,60 +69,57 @@ They were modified for one or more of the following reasons: fixing compilation,
 Each component not developed by us is available as a forked github repository for
     proper attribution to its authors.
 
-# Papers, talks, demos, consortium
-
-A [paper][8] with details on ILLIXR, including its components, runtime, telemetry support,
-    and a comprehensive analysis of performance, power, and quality on desktop and embedded systems.
-
-A [talk presented at NVIDIA GTC'21][42] describing ILLIXR and announcing the ILLIXR consortium:
-    [Video][43].
-    [Slides][44]. 
-
-A [demo][45] of an OpenXR application running with ILLIXR.
+## Papers, talks, demos, and consortium
 
 The [ILLIXR consortium][37] is an industry-supported community effort to democratize
     XR systems research, development, and benchmarking.
-Visit our [web site][37] for more information.
+Visit the [consortium web site][37] for more information,
+    including papers, talks, demos, and news about ILLIXR.
 
-# Citation
+## Citation
 
-We request that you cite our following [paper][8] (new version coming soon)
-    when you use ILLIXR for a publication.
-We would also appreciate it if you send us a citation once your work has been published.
+We request that you cite our following [paper][8] when you use ILLIXR for a publication.
+We would also appreciate it if you send us a citation at illixr@cs.illinois.edu once your work has been published.
 
 ```
-@misc{HuzaifaDesai2020,
-    title={Exploring Extended Reality with ILLIXR: A new Playground for Architecture Research},
-    author={Muhammad Huzaifa and Rishi Desai and Samuel Grayson and Xutao Jiang and Ying Jing and Jae Lee and Fang Lu and Yihan Pang and Joseph Ravichandran and Finn Sinclair and Boyuan Tian and Hengzhi Yuan and Jeffrey Zhang and Sarita V. Adve},
-    year={2021},
-    eprint={2004.04643},
-    primaryClass={cs.DC}
-}
+@INPROCEEDINGS{9668280,
+  author={Huzaifa, Muhammad and Desai, Rishi and Grayson, Samuel and Jiang, Xutao and Jing, Ying and Lee, Jae and Lu, Fang and Pang, Yihan and Ravichandran, Joseph and Sinclair, Finn and Tian, Boyuan and Yuan, Hengzhi and Zhang, Jeffrey and Adve, Sarita V.},
+  booktitle={2021 IEEE International Symposium on Workload Characterization (IISWC)}, 
+  title={ILLIXR: Enabling End-to-End Extended Reality Research}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={24-38},
+  keywords={Measurement;Technological innovation;Extended reality;Statistical analysis;Computer architecture;Propulsion;Quality of experience;extended reality;virtual reality;augmented reality;domain specific systems;computer architecture;benchmark;co design;accelerators},
+  doi={10.1109/IISWC53511.2021.00014}}
 ```
-
-## Getting Started and Documentation
-
-For more information, see our [Getting Started page][33].
-
 
 ## Acknowledgements
 
 The ILLIXR project started in [Sarita Adve’s research group][9],
     co-led by PhD candidate Muhammad Huzaifa, at the University of Illinois at Urbana-Champaign.
 Other major contributors include
+    Dhairya Bahl,
+    Charles Block,
+    Henry Che,
     Rishi Desai,
+    Doug Friedel,
+    Steven Gao,
     Samuel Grayson,
+    Qinjun Jiang,
     Xutao Jiang,
     Ying Jing,
     Jae Lee,
+    Jeffrey Liu,
     Fang Lu,
     Yihan Pang,
     Joseph Ravichandran,
     Giordano Salvador,
     Finn Sinclair,
+    Lincoln Stein,
     Boyuan Tian,
-    Henghzhi Yuan,
-    and
+    Kun Wu,
+    Hengzhi Yuan,
     Jeffrey Zhang.
 
 ILLIXR came together after many consultations with researchers and practitioners in many domains:
@@ -219,7 +222,7 @@ You can join
 [5]:    https://github.com/ILLIXR/visual_postprocessing
 [6]:    https://github.com/ILLIXR/HOTlab
 [7]:    https://github.com/ILLIXR
-[8]:    https://arxiv.org/pdf/2004.04643.pdf
+[8]:    https://ieeexplore.ieee.org/document/9741292
 [9]:    http://rsim.cs.illinois.edu
 [10]:   https://monado.dev
 [11]:   https://research.fb.com/programs/openeds-challenge
@@ -235,8 +238,6 @@ You can join
 [21]:   https://www.gnu.org/licenses/lgpl-3.0.html
 [22]:   https://gitlab.freedesktop.org/monado/monado
 [23]:   https://choosealicense.com/licenses/bsl-1.0
-[24]:   https://gitter.im/ILLIXR/community
-[25]:   https://github.com/ILLIXR/ILLIXR/releases
 [26]:   https://www.khronos.org/openxr
 [27]:   https://github.com/ILLIXR/gtsam
 [28]:   https://github.com/borglab/gtsam/blob/develop/LICENSE.BSD
@@ -246,18 +247,18 @@ You can join
 [32]:   https://github.com/cameron314/concurrentqueue/blob/master/LICENSE.md
 [33]:   https://illixr.github.io/ILLIXR/getting_started/
 [34]:   https://illixr.github.io/ILLIXR/LICENSE/
-[35]:   https://illixr.github.io/ILLIXR/illixr_plugins/
-[36]:   https://illixr.github.io/ILLIXR/writing_your_plugin/
 [37]:   http://illixr.org
 [38]:   https://github.com/ILLIXR/ILLIXR
-[39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v1-latest
+[39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v3.1.0
 [40]:   https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration
 [41]:   https://github.com/ILLIXR/ILLIXR/tree/master/realsense
-[42]:   https://www.nvidia.com/en-us/gtc/catalog/?search.primarytopic=option_1564595704881&search.sessiontype=option_1614028602338&search.primaryindustrysegment=option_1563402697134&search=An%20Open-Source%20Testbed#/
-[43]:   https://youtu.be/ZY98lWksnpM
+[42]:   https://www.sandia.gov/xr/events/
+[43]:   https://www.youtube.com/watch?v=gezUctqrCFA&ab_channel=SaritaAdve%27sResearchGroup
 [44]:   https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=2971
 [45]:   https://youtu.be/GVcCW8WgEDY
 [46]:   https://github.com/chrdiller/KinectFusionApp/blob/master/LICENSE.txt
 [47]:   https://discord.gg/upkvy7x3W4
 [48]:   mailto:lists@lists.cs.illinois.edu?subject=sub%20illixr-community
 [49]:   mailto:illixr@cs.illinois.edu
+[50]:   https://illixr.github.io/ILLIXR/plugin_README/offload_vio/
+[51]:   https://github.com/ILLIXR/ILLIXR/tree/master/zed
