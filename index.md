@@ -1,6 +1,14 @@
 ---
 layout: front
 ---
+<a href="https://www.youtube.com/watch?v=nPw4RGPwygI">
+    <img
+        alt="ILLIXR Simple Demo"
+        src="https://img.youtube.com/vi/GVcCW8WgEDY/0.jpg"
+        style="width: 320px"
+        class="center"
+    >
+</a>
 
 Illinois Extended Reality testbed or ILLIXR (pronounced like elixir) is
     the first fully open-source Extended Reality (XR) system and testbed.
@@ -19,7 +27,7 @@ To start working with ILLIXR, see our [Getting Started page][33].
 
 ILLIXR also provides its components in standalone configurations to enable architects and
     system designers to research each component in isolation.
-The standalone components are packaged together in the [v1-latest release][39] of ILLIXR. 
+The standalone components are packaged together in the [v3.1.0 release][39] of ILLIXR. 
 
 ILLIXR's modular and extensible runtime allows adding new components and swapping different
     implementations of a given component.
@@ -71,19 +79,19 @@ Visit the [consortium web site][37] for more information,
 ## Citation
 
 We request that you cite our following [paper][8] when you use ILLIXR for a publication.
-We would also appreciate it if you send us a citation once your work has been published.
+We would also appreciate it if you send us a citation at illixr@cs.illinois.edu once your work has been published.
 
 ```
-@ARTICLE{HuzaifaDesai2022,
+@INPROCEEDINGS{9668280,
   author={Huzaifa, Muhammad and Desai, Rishi and Grayson, Samuel and Jiang, Xutao and Jing, Ying and Lee, Jae and Lu, Fang and Pang, Yihan and Ravichandran, Joseph and Sinclair, Finn and Tian, Boyuan and Yuan, Hengzhi and Zhang, Jeffrey and Adve, Sarita V.},
-  journal={IEEE Micro}, 
-  title={ILLIXR: An Open Testbed to Enable Extended Reality Systems Research}, 
-  year={2022},
-  volume={42},
-  number={4},
-  pages={97-106},
-  doi={10.1109/MM.2022.3161018}
-}
+  booktitle={2021 IEEE International Symposium on Workload Characterization (IISWC)}, 
+  title={ILLIXR: Enabling End-to-End Extended Reality Research}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={24-38},
+  keywords={Measurement;Technological innovation;Extended reality;Statistical analysis;Computer architecture;Propulsion;Quality of experience;extended reality;virtual reality;augmented reality;domain specific systems;computer architecture;benchmark;co design;accelerators},
+  doi={10.1109/IISWC53511.2021.00014}}
 ```
 
 ## Acknowledgements
@@ -95,11 +103,14 @@ Other major contributors include
     Charles Block,
     Henry Che,
     Rishi Desai,
+    Doug Friedel,
+    Steven Gao,
     Samuel Grayson,
     Qinjun Jiang,
     Xutao Jiang,
     Ying Jing,
     Jae Lee,
+    Jeffrey Liu,
     Fang Lu,
     Yihan Pang,
     Joseph Ravichandran,
@@ -238,7 +249,7 @@ You can join
 [34]:   https://illixr.github.io/ILLIXR/LICENSE/
 [37]:   http://illixr.org
 [38]:   https://github.com/ILLIXR/ILLIXR
-[39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v1-latest
+[39]:   https://github.com/ILLIXR/ILLIXR/releases/tag/v3.1.0
 [40]:   https://github.com/ILLIXR/KinectFusionApp/tree/illixr-integration
 [41]:   https://github.com/ILLIXR/ILLIXR/tree/master/realsense
 [42]:   https://www.sandia.gov/xr/events/
@@ -249,5 +260,5 @@ You can join
 [47]:   https://discord.gg/upkvy7x3W4
 [48]:   mailto:lists@lists.cs.illinois.edu?subject=sub%20illixr-community
 [49]:   mailto:illixr@cs.illinois.edu
-[50]:   https://github.com/ILLIXR/ILLIXR/blob/master/docs/offload_vio.md
+[50]:   https://illixr.github.io/ILLIXR/plugin_README/offload_vio/
 [51]:   https://github.com/ILLIXR/ILLIXR/tree/master/zed
