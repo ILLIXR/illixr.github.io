@@ -199,7 +199,7 @@ Note that ILLIXR's extensibility allows the source to be configured and compiled
 
 ## Get in Touch
 
-Whether you are a computer architect, a compiler writer, a systems person, work on XR related algorithms
+Whether you are a computer architect, compiler writer, a systems person, work on XR related algorithms
     or applications, or just anyone interested in XR research, development, or products,
     we would love to hear from you and hope you will contribute!
 You can join
